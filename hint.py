@@ -34,23 +34,25 @@ import json
 #     # if the database is empty prints diagnostic message instead;
 
 
-def name_is_valid(name):
-    # checks if name (brand or model) is valid;
-    # valid name is non-empty string containing
-    # digits, letters and spaces;
-    # returns True or False;
+# Done
+# def name_is_valid(name):
+#     # checks if name (brand or model) is valid;
+#     # valid name is non-empty string containing
+#     # digits, letters and spaces;
+#     # returns True or False;
+
+# Done
+# def enter_id():
+#     # allows user to enter car's ID and checks if it's valid;
+#     # valid ID consists of digits only;
+#     # returns int or None (if user enters an empty line);
 
 
-def enter_id():
-    # allows user to enter car's ID and checks if it's valid;
-    # valid ID consists of digits only;
-    # returns int or None (if user enters an empty line);
-
-
-def enter_production_year():
-    # allows user to enter car's production year and checks if it's valid;
-    # valid production year is an int from range 1900..2000;
-    # returns int or None  (if user enters an empty line);
+# Done
+# def enter_production_year():
+#     # allows user to enter car's production year and checks if it's valid;
+#     # valid production year is an int from range 1900..2000;
+#     # returns int or None  (if user enters an empty line);
 
 
 def enter_name(what):
@@ -60,14 +62,14 @@ def enter_name(what):
     # argument describes which of two names is entered currently ('brand' or
     # 'model');
 
+    # Done
+    # def enter_convertible():
+    #     # allows user to enter Yes/No answer determining if the car is convertible;
+    #     # returns True, False or None  (if user enters an empty line);
 
-def enter_convertible():
-    # allows user to enter Yes/No answer determining if the car is convertible;
-    # returns True, False or None  (if user enters an empty line);
-
-
-def delete_car():
-    # asks user for car's ID and tries to delete it from database;
+    # Done
+    # def delete_car():
+    #     # asks user for car's ID and tries to delete it from database;
 
 
 def input_car_data(with_id):

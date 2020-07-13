@@ -63,6 +63,20 @@ def list_cars():
         exit(3)
 
 
+def name_is_valid(name):
+    # checks if name (brand or model) is valid;
+    # valid name is non-empty string containing
+    # digits, letters and spaces;
+    # returns True or False;
+
+    # Delete all the spaces in the name
+    # check if the string only contains letters or digitis
+    if (name != "") or (name.replace(" ", "").isalnum()):
+        return True
+    else:
+        return False
+
+
 def enter_id():
     # allows user to enter car's ID and checks if it's valid;
     # valid ID consists of digits only;
@@ -73,6 +87,31 @@ def enter_id():
         return input_id
     except AssertionError:
         print("You didn't enter a valid ID number!")
+
+
+def enter_production_year():
+    # allows user to enter car's production year and checks if it's valid;
+    # valid production year is an int from range 1900..2000;
+    # returns int or None  (if user enters an empty line);
+    try:
+        input_year = input("Enter production year, empty value to exit:")
+        assert (input_year.isdigit()) or (input_year == "") or (
+            int(input_year) > 1900 and int(input_year) < 2000)
+        return input_year
+    except AssertionError:
+        print("You didn't enter a valid year!")
+
+
+def enter_convertible():
+    # allows user to enter Yes/No answer determining if the car is convertible;
+    # returns True, False or None  (if user enters an empty line);
+    try:
+        input_convertible = input("Is convertible? [y/n]:")
+        assert (input_convertible == "") or (
+            input_convertible.lower() in ["y", "n", "yes", "no"])
+        return input_convertible
+    except AssertionError:
+        print("You didn't enter a valid input, please usse y or n!")
 
 
 def delete_car():
