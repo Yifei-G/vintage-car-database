@@ -1,33 +1,37 @@
 import requests
 import json
 
-
-def check_server(cid=None):
-    # returns True or False;
-    # when invoked without arguments simply checks if server responds;
-    # invoked with car ID checks if the ID is present in the database;
-
-
-def print_menu():
-    # prints user menu - nothing else happens here;
+# #Done
+# def check_server(cid=None):
+#     # returns True or False;
+#     # when invoked without arguments simply checks if server responds;
+#     # invoked with car ID checks if the ID is present in the database;
 
 
-def read_user_choice():
-    # reads user choice and checks if it's valid;
-    # returns '0', '1', '2', '3' or '4'
+# # Done
+# def print_menu():
+#     # prints user menu - nothing else happens here;
 
 
-def print_header():
-    # prints elegant cars table header;
+# Done
+# def read_user_choice():
+#     # reads user choice and checks if it's valid;
+#     # returns '0', '1', '2', '3' or '4'
 
 
-def print_car(car):
-    # prints one car's data in a way that fits the header;
+# Done
+# def print_header():
+#     # prints elegant cars table header;
+
+# #Done
+# def print_car(car):
+#     # prints one car's data in a way that fits the header;
 
 
-def list_cars():
-    # gets all cars' data from server and prints it;
-    # if the database is empty prints diagnostic message instead;
+# Done
+# def list_cars():
+#     # gets all cars' data from server and prints it;
+#     # if the database is empty prints diagnostic message instead;
 
 
 def name_is_valid(name):
@@ -83,21 +87,22 @@ def update_car():
     # invokes input_car_data(False) to gather new car's info and updates the
     # database;
 
-
-while True:
-    if not check_server():
-        print("Server is not responding - quitting!")
-        exit(1)
-    print_menu()
-    choice = read_user_choice()
-    if choice == '0':
-        print("Bye!")
-        exit(0)
-    elif choice == '1':
-        list_cars()
-    elif choice == '2':
-        add_car()
-    elif choice == '3':
-        delete_car()
-    elif choice == '4':
-        update_car()
+    # Moved it to the main.py
+    # Done
+    # while True:
+    #     if not check_server():
+    #         print("Server is not responding - quitting!")
+    #         exit(1)
+    #     print_menu()
+    #     choice = read_user_choice()
+    #     if choice == '0':
+    #         print("Bye!")
+    #         exit(0)
+    #     elif choice == '1':
+    #         list_cars()
+    #     elif choice == '2':
+    #         add_car()
+    #     elif choice == '3':
+    #         delete_car()
+    #     elif choice == '4':
+    #         update_car()
