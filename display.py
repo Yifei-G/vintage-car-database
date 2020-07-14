@@ -18,7 +18,7 @@ def print_menu():
     # prints user menu - nothing else happens here;
     menu = "M E N U"
 
-    sep_line = "======"
+    sep_line = "========"
     option1 = "1. List cars"
     option2 = "2. Add new car"
     option3 = "3. Delete car"

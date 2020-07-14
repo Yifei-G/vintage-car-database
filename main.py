@@ -1,5 +1,5 @@
 from display import print_header, print_menu
-from car_manager import check_server, list_cars, delete_car
+from car_manager import check_server, list_cars, delete_car, add_car, update_car
 
 
 def read_user_choice():
@@ -28,14 +28,10 @@ while True:
         print("Bye!")
         exit(0)
     elif choice == '1':
-        print("Choise 1")
         list_cars()
     elif choice == '2':
-        print("Choise 2")
-        # add_car()
+        add_car()
     elif choice == '3':
-        print("Choise 3")
         delete_car()
     elif choice == '4':
-        print("Choise 4")
-        # update_car()
+        update_car()

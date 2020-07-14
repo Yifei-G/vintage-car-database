@@ -1,5 +1,3 @@
-import requests
-import json
 
 # #Done
 # def check_server(cid=None):
@@ -54,57 +52,57 @@ import json
 #     # valid production year is an int from range 1900..2000;
 #     # returns int or None  (if user enters an empty line);
 
+# Done
+# def enter_name(what):
+#     # allows user to enter car's name (brand or model) and checks if it's valid;
+#     # uses name_is_valid() to check the entered name;
+#     # returns string or None  (if user enters an empty line);
+#     # argument describes which of two names is entered currently ('brand' or
+#     # 'model');
 
-def enter_name(what):
-    # allows user to enter car's name (brand or model) and checks if it's valid;
-    # uses name_is_valid() to check the entered name;
-    # returns string or None  (if user enters an empty line);
-    # argument describes which of two names is entered currently ('brand' or
-    # 'model');
+# Done
+# def enter_convertible():
+#     # allows user to enter Yes/No answer determining if the car is convertible;
+#     # returns True, False or None  (if user enters an empty line);
 
-    # Done
-    # def enter_convertible():
-    #     # allows user to enter Yes/No answer determining if the car is convertible;
-    #     # returns True, False or None  (if user enters an empty line);
+# Done
+# def delete_car():
+#     # asks user for car's ID and tries to delete it from database;
 
-    # Done
-    # def delete_car():
-    #     # asks user for car's ID and tries to delete it from database;
+# Done
+# def input_car_data(with_id):
+#     # lets user enter car data;
+#     # argument determines if the car's ID is entered (True) or not (False);
+#     # returns None if user cancels the operation or a dictionary of the following structure:
+#     # {'id': int, 'brand': str, 'model': str, 'production_year': int, 'convertible': bool }
 
+# Done
+# def add_car():
+#     # invokes input_car_data(True) to gather car's info and adds it to the
+#     # database;
 
-def input_car_data(with_id):
-    # lets user enter car data;
-    # argument determines if the car's ID is entered (True) or not (False);
-    # returns None if user cancels the operation or a dictionary of the following structure:
-    # {'id': int, 'brand': str, 'model': str, 'production_year': int, 'convertible': bool }
+# Done
+# def update_car():
+#     # invokes enter_id() to get car's ID if the ID is present in the database;
+#     # invokes input_car_data(False) to gather new car's info and updates the
+#     # database;
 
-
-def add_car():
-    # invokes input_car_data(True) to gather car's info and adds it to the
-    # database;
-
-
-def update_car():
-    # invokes enter_id() to get car's ID if the ID is present in the database;
-    # invokes input_car_data(False) to gather new car's info and updates the
-    # database;
-
-    # Moved it to the main.py
-    # Done
-    # while True:
-    #     if not check_server():
-    #         print("Server is not responding - quitting!")
-    #         exit(1)
-    #     print_menu()
-    #     choice = read_user_choice()
-    #     if choice == '0':
-    #         print("Bye!")
-    #         exit(0)
-    #     elif choice == '1':
-    #         list_cars()
-    #     elif choice == '2':
-    #         add_car()
-    #     elif choice == '3':
-    #         delete_car()
-    #     elif choice == '4':
-    #         update_car()
+# Moved it to the main.py
+# Done
+# while True:
+#     if not check_server():
+#         print("Server is not responding - quitting!")
+#         exit(1)
+#     print_menu()
+#     choice = read_user_choice()
+#     if choice == '0':
+#         print("Bye!")
+#         exit(0)
+#     elif choice == '1':
+#         list_cars()
+#     elif choice == '2':
+#         add_car()
+#     elif choice == '3':
+#         delete_car()
+#     elif choice == '4':
+#         update_car()
