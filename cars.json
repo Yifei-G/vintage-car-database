@@ -1,0 +1,81 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "production_year": 1988,
+      "convertible": true
+    },
+    {
+      "id": 3,
+      "brand": "Aston Martin",
+      "model": "Rapide",
+      "production_year": 2010,
+      "convertible": false
+    },
+    {
+      "id": 4,
+      "brand": "Maserati",
+      "model": "Mexico",
+      "production_year": 1970,
+      "convertible": false
+    },
+    {
+      "id": 5,
+      "brand": "Nissan",
+      "model": "Fairlady",
+      "production_year": 1974,
+      "convertible": false
+    },
+    {
+      "id": 6,
+      "brand": "Mercedes Benz",
+      "model": "300SL",
+      "production_year": 1967,
+      "convertible": true
+    },
+    {
+      "id": 7,
+      "brand": "Porsche",
+      "model": "911",
+      "production_year": 1963,
+      "convertible": false
+    },
+    {
+      "id": "8",
+      "brand": "SEAT",
+      "model": "Arona",
+      "production_year": "1898",
+      "convertible": false
+    },
+    {
+      "id": "9",
+      "brand": "MINI",
+      "model": "Mini Cooper",
+      "production_year": "1993",
+      "convertible": true
+    },
+    {
+      "id": "10",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "production_year": "1998",
+      "convertible": false
+    },
+    {
+      "id": "11",
+      "brand": "BMW",
+      "model": "655 Csi",
+      "production_year": "1983",
+      "convertible": false
+    },
+    {
+      "id": "14",
+      "brand": "SEAT",
+      "model": "LEON",
+      "production_year": "1993",
+      "convertible": false
+    }
+  ]
+}
